@@ -9,43 +9,41 @@
 
   - Elements
     - HTML components that define the specification of the content to be structured.
-  - Examples
-    - body
-    - h1-h6: Used for creating headings from most important (h1: large text) to least important (h6: small text).
-    - p
-    - div: A container element that wraps other elements.
-    - img
-    - a: Anchor tag. Used as a link to other webpages.
-    - ul / ol
-    - li
+    - Examples:
+      - body
+      - h1-h6: Used for creating headings from most important (h1: large text) to least important (h6: small text).
+      - p
+      - div: A container element that wraps other elements.
+      - img
+      - a: Anchor tag. Used as a link to other webpages.
+      - ul / ol
+      - li
   - Attributes
     - Additional information provided to the given element.
-    - Examples
+    - Examples:
       ```html
       id=”avatar”
       class=”button”
       href=”https://www.google.com”
       ```
   - Tags
-
     - Encompass the element and their corresponding attributes.
-    - Examples
+    - Examples:
       ```html
       <body id=”root”>Content</body>
       <a href=”https://www.devtree.io”>Link</a>
       <img src=”./my-image.png” />
       ```
-
   - Block vs Inline Elements
     - Block Level
       - Begin on a new line within the document and occupy the full available width.
-      - Examples
+      - Examples:
         - header
         - div
         - p
     - Inline Level
       - Do not begin on a new line with the document, and only occupy the necessary width required by their content.
-      - Examples
+      - Examples:
         - a
         - img
         - span
@@ -66,7 +64,7 @@
 - Selectors, Properties & Values
   - Selectors
     - Determines which element to apply the style to.
-    - Examples
+    - Examples:
       ```css
       header {
         property: value;
@@ -77,7 +75,7 @@
       ```
   - Properties
     - Determine style that will be applied to the element
-    - Examples
+    - Examples:
       ```css
       selector {
         color: value;
@@ -88,7 +86,7 @@
       ```
   - Values
     - Determines the behavior of the style applied
-    - Examples
+    - Examples:
       ```css
       selector {
         property: blue;
@@ -100,7 +98,7 @@
   - CSS Selectors
     - Element
       - Targets by the element's name.
-      - Examples
+      - Examples:
         ```css
         elementName {}
         <elementName />
@@ -108,14 +106,14 @@
     - Class
       - Targets by the element's classname.
       - Used to group student
-      - Examples
+      - Examples:
         ```css
         .elementClassName {}
         <element class=”elementClassName” />
         ```
     - ID
       - Targets by the element's unique ID.
-      - Examples
+      - Examples:
         ```css
         #elementID {}
         <element id=”elementID” />
